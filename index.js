@@ -37,20 +37,35 @@
 // ----------3-masala
 // 3. Quyidagi kabi massiv berilganda uning ichidan yoshlarining o'rtachasini topuvchi funksiya yozing
 // const students = [
-//      { name: 'Alice', age: 22, grades: [85, 90, 92, 88] },
-//      { name: 'Bob', age: 20, grades: [78, 85, 80, 88] },
-//      { name: 'Charlie', age: 21, grades: [90, 92, 89, 94] },
-//    ];
+//   { name: "Alice", age: 22, grades: [85, 90, 92, 88] },
+//   { name: "Bob", age: 20, grades: [78, 85, 80, 88] },
+//   { name: "Charlie", age: 21, grades: [90, 92, 89, 94] },
+// ];
+
+// function findAverageAge(students) {
+//   let totalAge = 0;
+//   students.forEach((student) => {
+//     totalAge += student.age;
+//   });
+//   return totalAge / students.length;
+// }
+
+// console.log(findAverageAge(students));
 
 // ----------4-masala
 // Quyidagi kabi massivni priority boyicha saralab beradigan funksiya yozing
 // const tasks = [
-//      { taskName: 'Task A', priority: 'High', deadline: '2023-03-15' },
-//      { taskName: 'Task B', priority: 'Medium', deadline: '2023-04-10' },
-//      { taskName: 'Task C', priority: 'Low', deadline: '2023-03-01' },
-//      { taskName: 'Task D', priority: 'High', deadline: '2023-03-20' },
-//    ];
+//   { taskName: "Task A", priority: "High", deadline: "2023-03-15" },
+//   { taskName: "Task B", priority: "Medium", deadline: "2023-04-10" },
+//   { taskName: "Task C", priority: "Low", deadline: "2023-03-01" },
+//   { taskName: "Task D", priority: "High", deadline: "2023-03-20" },
+// ];
 
+// function sortTasksByDeadline(tasks) {
+//   tasks.sort((a, b) => {
+//     return new Date(a.deadline) - new Date(b.deadline);
+//   });
+// }
 // sortTasksByDeadline(tasks);
 
 // console.log(tasks);
